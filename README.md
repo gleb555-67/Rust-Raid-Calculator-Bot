@@ -22,3 +22,16 @@ Telegram-бот для расчета рейдов в игре Rust. Позво�
    ```bash
    git clone https://github.com/gleb555-67/Rust-Raid-Calculator-Bot
    cd Rust-Raid-Calculator-Bot
+2. Откройте файл bot.py и замените строку с токеном:
+   
+TOKEN = "..."
+
+3.Настройка прокси (опционально).
+
+Если вы используете Tor, в файле bot.py уже добавлена настройка прокси:
+apihelper.proxy = {'https': 'socks5://127.0.0.1:9150'}
+Перед запуском бота убедитесь, что клиент Tor запущен и слушает порт 9150. Если прокси не используется, закомментируйте эту строку.
+
+4.Напишите в консоль:
+   ```bash
+   pip install -r requirements.txt
