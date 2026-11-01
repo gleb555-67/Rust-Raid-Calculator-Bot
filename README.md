@@ -21,4 +21,4 @@ Telegram-бот для расчета рейдов в игре Rust. Позво�
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/gleb555-67/Rust-Raid-Calculator-Bot
-   cd rust-raid-bot
+   cd Rust-Raid-Calculator-Bot
